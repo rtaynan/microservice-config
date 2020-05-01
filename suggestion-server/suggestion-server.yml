@@ -1,10 +1,4 @@
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 3000
+
 
 open-weather:
   api:
