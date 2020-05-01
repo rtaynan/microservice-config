@@ -1,10 +1,3 @@
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 3000
 
 open-weather:
   api:
@@ -18,3 +11,11 @@ spotify:
     tokenUrl: https://accounts.spotify.com/api/token
     clientId: 3e4985444812493a806352b749b77fde
     clientSecret: 3ac84241b00944d29e81cd5eb62f0fd9
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
