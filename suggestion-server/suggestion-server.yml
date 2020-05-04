@@ -35,7 +35,6 @@ spring:
     redis:
       time-to-live: 60000
       maxmemory: 128mb
-
-redis:
-  host: redis
-  port: 6379
+  redis:
+    host: redis
+    port: 6379
