@@ -33,7 +33,7 @@ spring:
   cache:
     type: redis
     redis:
-      time-to-live: 60000
+      time-to-live: 3600000
       maxmemory: 128mb
   redis:
     host: ${REDIS_URL:localhost}
